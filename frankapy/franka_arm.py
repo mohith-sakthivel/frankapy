@@ -35,7 +35,7 @@ class FrankaArm:
             rosnode_name='franka_arm_client', 
             ros_log_level=rospy.INFO,
             robot_num=1,
-            with_gripper=True,
+            with_gripper=False,
             old_gripper=False,
             offline=False,
             init_node=True):
